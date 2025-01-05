@@ -1,0 +1,5 @@
+.VmChatbot/
+.env
+Bot_Access_Token.sh
+meraki_api_log_*
+nornir.log
