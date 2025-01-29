@@ -2,12 +2,17 @@ import sys
 import requests
 import json
 import urllib3
+import os
+from dotenv import load_dotenv
+
+# Load the environment variables
+load_dotenv()
 
 # Disable SSL warnings (for development use only; not recommended in production)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Your Webex Bot Access Token
-Bot_Access_token = "NzRjY2Q5OTQtOWNiMC00YmRiLTgzYzctYTg5NzhhMzIyNDdjZmY1YzEyODUtMjRl_P0A1_024cf1cc-0fff-4459-9d22-2bf3b7018d17"
+Bot_Access_token = os.getenv("WEBEX_BOT_TOKEN")
 
 # Webex API URL for fetching rooms
 rooms_url = "https://webexapis.com/v1/rooms"

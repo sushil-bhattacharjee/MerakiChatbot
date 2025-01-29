@@ -1,7 +1,12 @@
 from webexteamssdk import WebexTeamsAPI
+import os
+from dotenv import load_dotenv
+
+# Load the environment variables
+load_dotenv()
 
 # Replace with your valid Personal Access Token
-Personal_Access_Token = "NmZmOGU5MjMtYzgzYi00ZmE4LWJmZGQtN2Q3ZWM2ZjdmODA1NjAwOGM1MDctYTYz_P0A1_024cf1cc-0fff-4459-9d22-2bf3b7018d17"
+Personal_Access_Token = os.getenv("PersonalAccessToken")
 
 # Initialize the Webex Teams API with the access token
 api = WebexTeamsAPI(access_token=Personal_Access_Token)

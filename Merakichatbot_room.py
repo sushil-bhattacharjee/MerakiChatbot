@@ -1,8 +1,13 @@
 import requests
 import json
 from rich import print
+import os
+from dotenv import load_dotenv
 
-Personal_Access_Token = "NmZmOGU5MjMtYzgzYi00ZmE4LWJmZGQtN2Q3ZWM2ZjdmODA1NjAwOGM1MDctYTYz_P0A1_024cf1cc-0fff-4459-9d22-2bf3b7018d17"
+# Load the environment variables
+load_dotenv()
+
+Personal_Access_Token = os.getenv("PersonalAccessToken") # update the token from the webex developer portal
 
 rooms_url = "https://webexapis.com/v1/rooms"
 
