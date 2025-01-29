@@ -1,0 +1,14 @@
+R1:
+  hostname: 10.1.10.11
+  groups:
+    - routers
+
+R2:
+  hostname: 10.1.10.12
+  groups:
+    - routers
+
+R3:
+  hostname: 10.1.10.13
+  groups:
+    - routers

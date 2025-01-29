@@ -1,0 +1,28 @@
+2025-01-06 07:42:39       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.53.0', 'api_key': '************************************5ca6', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'network_delete_retry_wait_time': 240, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, 'use_iterator_for_get_pages': False}
+2025-01-06 07:44:10       meraki:    DEBUG > {'tags': ['organizations', 'configure', 'networks'], 'operation': 'getOrganizationNetworks', 'page': 1}
+2025-01-06 07:44:10       meraki:     INFO > GET https://api.meraki.com/api/v1/organizations/1215707/networks
+2025-01-06 07:44:11       meraki:     INFO > organizations, getOrganizationNetworks; page 1 - 200 OK
+2025-01-06 07:45:18       meraki:    DEBUG > {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/l_784752235069309767/devices', 'params': None}
+2025-01-06 07:45:18       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/l_784752235069309767/devices
+2025-01-06 07:45:19       meraki:    ERROR > networks, getNetworkDevices - 404 Not Found, b''
+2025-01-06 07:50:44       meraki:    DEBUG > {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/l_784752235069309769/devices', 'params': None}
+2025-01-06 07:50:44       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/l_784752235069309769/devices
+2025-01-06 07:50:45       meraki:    ERROR > networks, getNetworkDevices - 404 Not Found, b''
+2025-01-06 07:52:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2025-01-06 07:52:39       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/n_784752235069316035%27/clients
+2025-01-06 07:52:40       meraki:    ERROR > networks, getNetworkClients - 404 Not Found, b''
+2025-01-06 07:52:57       meraki:    DEBUG > {'tags': ['organizations', 'configure', 'networks'], 'operation': 'getOrganizationNetworks', 'page': 1}
+2025-01-06 07:52:57       meraki:     INFO > GET https://api.meraki.com/api/v1/organizations/1215707/networks
+2025-01-06 07:52:58       meraki:     INFO > organizations, getOrganizationNetworks; page 1 - 200 OK
+2025-01-06 07:53:36       meraki:    DEBUG > {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks//devices', 'params': None}
+2025-01-06 07:53:36       meraki:     INFO > GET https://api.meraki.com/api/v1/networks//devices
+2025-01-06 07:53:37       meraki:    ERROR > networks, getNetworkDevices - 404 Not Found, b''
+2025-01-06 07:56:15       meraki:    DEBUG > {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/12345%0Aarduino%0Acopy%20code/devices', 'params': None}
+2025-01-06 07:56:15       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/12345%0Aarduino%0Acopy%20code/devices
+2025-01-06 07:56:16       meraki:    ERROR > networks, getNetworkDevices - 404 Not Found, b''
+2025-01-06 07:56:27       meraki:    DEBUG > {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/12345/devices', 'params': None}
+2025-01-06 07:56:27       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/12345/devices
+2025-01-06 07:56:28       meraki:    ERROR > networks, getNetworkDevices - 404 Not Found, b''
+2025-01-06 07:56:56       meraki:    DEBUG > {'tags': ['organizations', 'configure', 'networks'], 'operation': 'getOrganizationNetworks', 'page': 1}
+2025-01-06 07:56:56       meraki:     INFO > GET https://api.meraki.com/api/v1/organizations/1215707/networks
+2025-01-06 07:56:57       meraki:     INFO > organizations, getOrganizationNetworks; page 1 - 200 OK
