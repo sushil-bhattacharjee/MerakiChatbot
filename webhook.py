@@ -1,8 +1,12 @@
 from webexteamssdk import WebexTeamsAPI
 import os
+from dotenv import load_dotenv
+
+# Load the environment variables
+load_dotenv()
 
 # Replace with your Bot Access Token
-WEBEX_BOT_TOKEN = "NzRjY2Q5OTQtOWNiMC00YmRiLTgzYzctYTg5NzhhMzIyNDdjZmY1YzEyODUtMjRl_P0A1_024cf1cc-0fff-4459-9d22-2bf3b7018d17"
+WEBEX_BOT_TOKEN = os.getenv("WEBEX_BOT_TOKEN")
 
 # Replace with your ngrok forwarding URL
 NGROK_URL = "https://9664-27-96-222-36.ngrok-free.app"
